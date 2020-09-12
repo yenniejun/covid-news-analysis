@@ -14,6 +14,7 @@ The `models` folder includes the vectors included in the models for topic modeli
 
 The `proc` folder includes the document term matrix, the node lists, and the edge lists. 
 
+The optional `scripts` folder includes additional scripts I may have used in the scraping process.
 
 ## Methodology
 All notebooks are arranged in a similar fashion:
