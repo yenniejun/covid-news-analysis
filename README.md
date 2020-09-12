@@ -27,16 +27,21 @@ All notebooks are arranged in a similar fashion:
 ### Scraping
 * BeautifulSoup4
 * FakeUserAgent
+* Python requests
 
 ### Data Cleaning and Processing
 * [KoNLPy](https://konlpy.org/en/latest/) (Korean morpheme tokenizer and Part-of-speech tagger)
 * [Soylemma](https://pypi.org/project/soylemma/) (Korean lemmatizer)
 * [Korean stop words](https://github.com/stopwords-iso/stopwords-ko)
 * [Jieba](https://github.com/fxsjy/jieba) (Chinese)
-* nltk (English stop words, lemmatizer, stemmer)
+* [nltk](https://www.nltk.org/) (English stop words, lemmatizer, stemmer)
 
 ### Topic Modeling
-* sklearn (NMF, LDA)
+* [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html) (NMF, TFIDF)
+
+### Misc.
+* networkx
+* matplotlib
 
 
 ## News Sources and Search Terms
@@ -58,7 +63,7 @@ Date range used: January 01, 2020 to the end of June.
 
 ### Hong Kong
 * Chinese search terms: `COVID-19`, `新冠肺炎`
-* Chinese Newspapers: [Oriental Daily News (東方日報)]	(https://orientaldaily.on.cc/), [Ming Pao (明報)](https://www.mingpao.com/), [Sing Tao Daily (星島日報)](https://std.stheadline.com/)
+* Chinese Newspapers: [Oriental Daily News (東方日報)](https://orientaldaily.on.cc/), [Ming Pao (明報)](https://www.mingpao.com/), [Sing Tao Daily (星島日報)](https://std.stheadline.com/)
 * English search terms: `COVID-19`, `coronavirus`
 * English Newspapers: [South China Morning Post’s (SCMP)](https://www.scmp.com/news/hong-kong), [Hong Kong Free Press](https://hongkongfp.com/)
 
