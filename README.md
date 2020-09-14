@@ -6,7 +6,9 @@ We collected hundreds of thousands of news articles from liberal and conservativ
 This project is part of the Big Data Studies Lab, a research group at Seoul National University.
 
 ## Organization
-There are five folders, one for each country. In each country is a Jupyter notebook with the same name as the country. This is the main notebook with all of the code.
+There are five folders, one for each country. In each country is a Jupyter notebook with the same name as the country. This is the main notebook with all of the code. 
+
+The following files are large CSV or Pickle files and are therefore maintained using [Git LFS](https://git-lfs.github.com/).
 
 The `data` folder includes the raw scraped text from the news articles, as well as the cleaned and processed text.
 
