@@ -16,15 +16,13 @@ There are five folders, one for each country. In each country is a Jupyter noteb
 
 The following files are large CSV or Pickle files and are therefore maintained using [Git LFS](https://git-lfs.github.com/).
 
-The `data` folder includes the raw scraped text from the news articles, as well as the cleaned and processed text.
-
 The `models` folder includes the vectors included in the models for topic modeling.
 
 The `proc` folder includes the document term matrix, the node lists, and the edge lists. 
 
 The optional `scripts` folder includes additional scripts I may have used in the scraping process.
 
-
+The data (raw, cleaned, and processed) are not included in this repo.
 
 
 ## Tools
